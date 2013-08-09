@@ -8,14 +8,14 @@ Gem::Specification.new do |s|
   s.authors     = ['Wavii, Inc.']
   s.email       = ['info@wavii.com']
   s.homepage    = 'http://wavii.com/'
-  s.summary     = %q{A collection of tweaks to improve your Rails (3.1+) development experience.}
-  s.description = %q{A collection of tweaks to improve your Rails (3.1+) development experience.}
+  s.summary     = %q{A collection of tweaks to improve your Rails (4.0+) development experience.}
+  s.description = %q{A collection of tweaks to improve your Rails (4.0+) development experience.}
 
   s.rubyforge_project = 'rails-dev-tweaks'
 
   s.files         = Dir['lib/**/*'] + ['MIT-LICENSE', 'Rakefile', 'README.md']
   s.require_paths = ['lib']
 
-  s.add_runtime_dependency 'railties',   '~> 3.1'
-  s.add_runtime_dependency 'actionpack', '~> 3.1'
+  s.add_runtime_dependency 'railties',   '~> 4.0'
+  s.add_runtime_dependency 'actionpack', '~> 4.0'
 end
